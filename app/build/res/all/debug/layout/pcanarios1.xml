@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/LayoutEncabezado"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >  
+    
+    	<ImageView
+        	android:id="@+id/logo1"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:src="@drawable/logo" 
+        	android:layout_alignParentLeft="true"
+        	android:contentDescription="@string/definicion_logo" />
+
+    	<Button
+    	    android:id="@+id/Boton_Ayuda_PCanarios1"
+    	    android:layout_width="40dp"
+    	    android:layout_height="40dp"
+    	    android:layout_alignParentRight="true"
+    	    android:text="@string/ayuda" />
+    
+	</RelativeLayout>
+	    
+    <TextView
+        android:id="@+id/Titulo_Productos_Canarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/titulo_productos_canarios"
+        android:textSize="28sp" />   
+    
+    <TextView
+        android:id="@+id/Seleccion_Isla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"            	                
+        android:layout_gravity="center"
+        android:text="@string/sel_isla"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/Opciones_Islas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" 
+        android:gravity="center"
+        android:prompt="@string/vacio" />
+    
+    <TextView
+        android:id="@+id/Seleccion_Categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"            	                
+        android:layout_gravity="center"
+        android:text="@string/sel_categoria"
+        android:textSize="18sp" />
+ 
+    <Spinner
+    	android:id="@+id/Opciones_Categoria"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"   	
+    	android:gravity="center"
+    	android:prompt="@string/vacio" />
+        
+    <TextView
+        android:id="@+id/Seleccion_Producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="@string/sel_producto"
+        android:textSize="18sp" />
+    
+    <Spinner
+    	android:id="@+id/Opciones_Producto"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"   	
+    	android:gravity="center"
+    	android:prompt="@string/vacio" />
+        
+    <CheckBox android:id="@+id/Seleccion_Mercadillos"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+    	android:text="@string/eleccion_mercadillos"
+    	android:checked="false" />
+
+    <Button
+        android:id="@+id/Boton_Aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="@string/aceptar" />
+
+</LinearLayout><!-- From: file:/C:/Users/Adriana/AndroidStudioProjects/TFGServicio/app/src/main/res/layout/pcanarios1.xml -->

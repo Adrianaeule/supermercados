@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="islas_canarias">
+	    <item> El Hierro </item>
+		<item> La Gomera </item>
+		<item> La Palma </item>
+		<item> Tenerife </item>
+		<item> Gran Canaria </item>
+		<item> Fuerteventura </item>
+		<item> Lanzarote </item>	    	    	    	    
+    </string-array>
+</resources>

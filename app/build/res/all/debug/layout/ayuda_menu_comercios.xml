@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    <TextView
+        android:id="@+id/Titulo_Ayuda_Menu_Comercios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/titulo_ayuda_menu_opciones"
+        android:textSize="28sp" />
+    
+    <TextView
+    	android:id="@+id/Definicion_Ayuda_Menu_Comercios"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="20dp"
+    	android:layout_marginTop="10dp"
+    	android:text="@string/definicion_ayuda_menu_comercios"
+    	android:textSize="12sp" />
+
+</LinearLayout><!-- From: file:/C:/Users/Adriana/AndroidStudioProjects/TFGServicio/app/src/main/res/layout/ayuda_menu_comercios.xml -->

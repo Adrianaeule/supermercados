@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias_observatorio_precio">
+    	<item> Todas las categorias </item>
+    	<item> Aromaticas </item>
+    	<item> Fruta </item>
+    	<item> Verduras </item>
+        <item> Papas </item>
+    </string-array>
+</resources>

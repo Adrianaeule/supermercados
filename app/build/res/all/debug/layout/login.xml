@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LayoutPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/LayoutEncabezado"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >  
+    
+    	<ImageView
+        	android:id="@+id/logo1"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:src="@drawable/logo" 
+        	android:layout_alignParentLeft="true"
+        	android:contentDescription="@string/definicion_logo" />
+
+    	<Button
+    	    android:id="@+id/Boton_Ayuda_Acceso"
+    	    android:layout_width="40dp"
+    	    android:layout_height="40dp"
+    	    android:layout_alignParentRight="true"
+    	    android:text="@string/ayuda" />
+    
+	</RelativeLayout>
+    
+    <TextView
+        android:id="@+id/Titulo_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/titulo_login"
+        android:textSize="28sp" />
+
+    <TableLayout
+        android:id="@+id/LayoutSecundario"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="horizontal" >
+
+        <TableRow>
+        	<TextView
+            	android:id="@+id/Texto_Usuario"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="20dp"
+            	android:textSize="16sp"
+            	android:text="@string/usuario" />
+
+        	<EditText
+            	android:id="@+id/Texto_Insertar_Usuario"
+            	android:layout_width="200dp"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="20dp"
+            	android:inputType="text" />
+        </TableRow>
+        
+
+        <TableRow>
+           <TextView
+            	android:id="@+id/Texto_Contrasena"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:textSize="16sp"
+            	android:text="@string/contrasena" />
+
+        	<EditText
+            	android:id="@+id/Texto_Insertar_Contrasena"
+            	android:layout_width="10dp"
+            	android:layout_height="wrap_content"
+            	android:layout_span="2"
+            	android:inputType="textPassword" />
+        </TableRow>
+        
+        
+    </TableLayout>
+
+    <Button
+        android:id="@+id/Boton_Acceso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/acceso_app" />
+
+
+        <TextView
+            android:id="@+id/Texto_Registro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="@string/texto_registro"
+            android:textSize="20sp" />
+
+    	<Button
+        	android:id="@+id/BtnRegistrar"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+        	android:layout_gravity="center"
+    	    android:text="@string/registro" />
+  
+</LinearLayout><!-- From: file:/C:/Users/Adriana/AndroidStudioProjects/TFGServicio/app/src/main/res/layout/login.xml -->

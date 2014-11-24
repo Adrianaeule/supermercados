@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LayoutPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/LayoutEncabezado"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"         >  
+    
+    	<ImageView
+        	android:id="@+id/logo1"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:src="@drawable/logo" 
+        	android:layout_alignParentLeft="true"
+        	android:contentDescription="@string/definicion_logo" />
+
+    	<Button
+    	    android:id="@+id/Boton_Ayuda_Menu_Opciones"
+    	    android:layout_width="40dp"
+    	    android:layout_height="40dp"
+    	    android:layout_alignParentRight="true"
+    	    android:text="@string/ayuda" />
+    
+	</RelativeLayout>
+	
+    <TextView
+        android:id="@+id/Titulo_Menu_Opciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/titulo_menu_opciones"
+        android:textSize="28sp" />
+    
+     <TableLayout
+        android:id="@+id/LayoutSecundario"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="horizontal" >
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/Imagen_Comercios"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@null"
+                android:contentDescription="@string/definicion_logo"
+                android:scaleType="fitXY"
+                android:src="@drawable/comercio" />
+
+        	<TextView
+            	android:id="@+id/Texto_Comercios"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="40dp"
+            	android:textSize="16sp"
+            	android:text="@string/comercios" />
+        </TableRow>
+        
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/Imagen_Productos"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@null"
+                android:contentDescription="@string/definicion_logo"
+                android:scaleType="fitXY"
+                android:src="@drawable/productos" />
+            	      
+        	<TextView
+            	android:id="@+id/Texto_Productos"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="40dp"
+            	android:textSize="16sp"
+            	android:text="@string/productos" />
+        </TableRow>
+             
+    </TableLayout>
+        
+
+</LinearLayout>

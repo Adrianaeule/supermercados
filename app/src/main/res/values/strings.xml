@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cesta de la Compra</string>
+    <string name="action_settings">Settings</string>
+    <string name="ayuda">\?</string>
+    <string name="titulo_principal">CESTA DE LA COMPRA</string>
+    <string name="titulo_ayuda_principal">¿QUÉ ES LA CESTA DE LA COMPRA?</string>
+    <string name="titulo_ayuda_login">ACCESO A LA APLICACION</string>
+    <string name="titulo_ayuda_menu_opciones"> QUE OPCION DEBO ELEGIR</string>
+    <string name="titulo_ayuda_mercadillos1"> ELECCION DE MERCADILLOS</string>
+    <string name="titulo_ayuda_mercadillos2"> MAPA DE MERCADILLOS</string>
+    <string name="titulo_ayuda_observatorio1"> ELECCION DE SUPERMERCADOS </string>
+    <string name="titulo_ayuda_observatorio2"> MAPA DE SUPERMERCADOS </string>
+    <string name="titulo_ayuda_pcanarios1"> ELECCION DE PRODUCTOS </string>
+    <string name="titulo_ayuda_pcanarios2"> MAPA DE PRODUCTOS </string>
+    <string name="titulo_login">ACCEDE A LA APP</string>
+    <string name="titulo_menu_opciones">OPCIONES</string>
+    <string name="titulo_observatorio">Observatorio de Precios</string>
+    <string name="titulo_productos_canarios"> Productos Canarios</string>
+    <string name="titulo_mercadillos">Mercadillos en Canarias</string>
+    <string name="subtitulo_principal">BIENVENIDO</string>
+    <string name="definicion_corta"> La cesta de la compra es una aplicación que nos permite, por una parte, comparar los precios de los diferentes supermercados de España, y por otra parte, buscar productos canarios en los diferentes supermercados de Canarias, según categoría de producto: \n\n+ Observatorio de Precios \n+ Productos Canarios \n + Mercadillos Canarios</string>
+    <string name="definicion_larga"> La cesta de la compra es una aplicación que nos permite, por una parte, comparar los precios de los diferentes supermercados de España o de los mercadillos de las Islas Canarias, y por otra parte, buscar productos canarios en los diferentes supermercados o mercadillos de Canarias, mediante la categoría, subcategoría y/o nombre del producto: \n\n+ Observatorio de Precios \n+ Productos Canarios \n + Mercadillos Canarios</string>
+    <string name="definicion_ayuda_login"> Para poder acceder a la app debes tener un nombre de usuario y contraseña. Si aun no lo tienes haz click en el boton "Registrate", el cual te llevará a la página web de la aplicación donde podrás darte de alta en solos unos minutos y de manera totalmente gratuita. Si ya te has registrado solo tienes que añadir tus credenciales en esta pantalla y podrás comenzar a usar la aplicacion.</string>
+    <string name="definicion_ayuda_menu_opciones"> En esta seccion podemos elegir la opcion de Comercios, en la que podremos ver el comercio mas caro o mas barato, según la categoría elegida. Si elegimos la opción de Productos, podremos ver que Comercios tienen a la venta un determinado producto canario.</string>
+    <string name="definicion_ayuda_menu_comercios"> En este seccion podemos elegir la opcion de Observatorio de Precios, donde podemos ver que supermercado es el más barato en una determinada provincia a nivel Nacional, según la categoria elegida por el usuario. Si elegimos la opcion de Mercadillos, podremos saber cual es el mercadillo más barato de una determinada isla, pues esta opcion es a nivel insular. </string>
+    <string name="definicion_ayuda_mercadillos1"> En esta pantalla se debe escoger la isla en la que se quiere comparar los precios de los mercadillos, asi como la categoría por la que se quiere obtener el resultado. Se deben elegir ambas características ya que son obligatorias.</string>
+    <string name="definicion_ayuda_mercadillos2"> En esta pantalla tenemos el mapa de la isla elegida con marcadores sobre los mercadillos que encajan dentro de las características elegidas por el usuario, donde el marcador de color verde será el mercadillo más barato y el de color rojo el más caro. Además si el usuario se posiciona sobre cada marcador podrá ver información adicional de cada mercadillo.</string>
+    <string name="definicion_ayuda_observatorio1"> En esta pantalla se debe escoger la provincia en la que se desea comparar los precios de los supermercados, asi como la categoría por la qe se quiere obtener el resultado. Se deben elegir ambas características ya que son obligatorias.</string>
+    <string name="definicion_ayuda_observatorio2"> En esta pantalla tenemos el mapa de la provincia elegida con marcadores sobre los supermercados que encajan dentro de las características elegidas por el usuario, donde el marcador de color verde será el supermercado más barato y el de color rojo el más caro. Además si el usuario se posiciona sobre cada marcador podrá ver información adicional de cada supermercado.</string>
+    <string name="definicion_ayuda_pcanarios1"> En esta pantalla se debe escoger la isla en la que se desea buscar un determinado producto canario, eligiendo obligatoriamente una categoría y opcionalmente una subcategoría. También se puede añadir de manera opcional el nombre del producto buscado. Además la opción "Buscar en mercadillos" te permite hacer la busqueda en los mercadillos de la isla elegida en lugar de los supermercados. </string>
+    <string name="definicion_ayuda_pcanarios2"> En esta pantalla tenemos el mapa de la isla elegida con marcadores sobre los supermercados o mercadillos, según la opción elegida, que encajan dentro de las características seleccionadas por el usuario, donde el marcador de color verde será el supermercado o mercadillo que tenga el producto más barato y el de color rojo el más caro. Además si el usuario se posiciona sobre cada marcador podrá ver información adicional de cada supermercado o mercadillo. </string>
+    <string name="definicion_logo">Logo de la aplicacion</string>
+    <string name="acceso_app">ACCEDER</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="borrar">BORRAR</string>
+    <string name="usuario">Usuario:</string>
+    <string name="contrasena">Password:</string>
+    <string name="comercios">COMERCIOS</string>
+    <string name="productos"> PRODUCTOS</string>
+    <string name="observatorio_precios">OBSERVATORIO DE PRECIOS</string>
+    <string name="productos_canarios">PRODUCTOS CANARIOS</string>
+    <string name="mercadillos"> MERCADILLOS</string>
+    <string name="texto_registro">¿Aun no te has registrado?</string>
+    <string name="registro">Registrate</string>
+    <string name="sel_provincia">Seleccionar provincia</string>
+    <string name="sel_categoria">Seleccionar categoria</string>
+    <string name="sel_subcategoria">Seleccionar subcategoria</string>
+    <string name="sel_producto"> Seleccionar producto</string>
+    <string name="sel_isla">Seleccionar isla</string>
+    <string name="vacio"> Seleccionar opcion</string>
+    <string name="categoria">Categoria:</string>
+    <string name="subcategoria">Subcategoria:</string>
+    <string name="provincia">Provincia:</string>
+    <string name="isla">Isla:</string>
+    <string name="producto">Producto:</string>
+    <string name="eleccion_mercadillos">Mercadillo</string>
+    
+
+    
+</resources>

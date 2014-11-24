@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="categorias_productos">
+        <item>@array/productos_Aromaticas</item>
+        <item>@array/productos_Fruta</item>
+        <item>@array/productos_Verduras</item>
+        <item>@array/productos_Papas</item>
+    </array>
+
+    <string-array name="categorias">
+        <item> Aromaticas </item>
+        <item> Fruta </item>
+        <item> Verduras </item>
+        <item> Papas </item>
+    </string-array>
+
+    <string-array name="productos_Aromaticas">
+        <item> Berros Kg. </item>
+        <item> Cilantro </item>
+        <item> Perejil manojo </item>
+    </string-array>
+
+    <string-array name="productos_Fruta">
+        <item> Aguacate Fuerte </item>
+        <item> Aguacate Hass </item>
+        <item> Castañas </item>
+        <item> Chirimollas </item>
+        <item> Durazno Grande </item>
+        <item> Durazno Mediano </item>
+        <item> Durazno Pequeño </item>
+        <item> Fresas </item>
+        <item> Granadas </item>
+        <item> Higos de Pico </item>
+        <item> Limas </item>
+        <item> Limones </item>
+        <item> Mandarinas </item>
+        <item> Mangas </item>
+        <item> Mangos </item>
+        <item> Manzana Reineta Extra Grande </item>
+        <item> Manzana Reineta Grande </item>
+        <item> Manzana Reinetas Mediana </item>
+        <item> Manzanas </item>
+        <item> Melones </item>
+        <item> Moras </item>
+        <item> Naranjas </item>
+        <item> Nectarinas </item>
+        <item> Nísperos </item>
+        <item> Nueces </item>
+        <item> Ñames </item>
+        <item> Papayas Cubanas </item>
+        <item> Papayas Hawai </item>
+        <item> Parchita </item>
+        <item> Peras </item>
+        <item> Piña Tropical </item>
+        <item> Plátanos </item>
+        <item> Pomelos </item>
+        <item> Sandías </item>
+        <item> Uvas </item>
+    </string-array>
+
+    <string-array name="productos_Verduras">
+        <item> Acelgas manojo </item>
+        <item> Ajos </item>
+        <item> Alcachofas </item>
+        <item> Apio </item>
+        <item> Arvejas </item>
+        <item> Batata Blanca </item>
+        <item> Batata Roja </item>
+        <item> Batata Venezolana </item>
+        <item> Batata Yema de Huevo </item>
+        <item> Berenjenas </item>
+        <item> Beterradas </item>
+        <item> Brecol </item>
+        <item> Bubangos </item>
+        <item> Calabacín Normal </item>
+        <item> Calabacín Redondos </item>
+        <item> Calabacín Zucchini </item>
+        <item> Calabazas </item>
+        <item> Cebollas blancas nuevas </item>
+        <item> Cebollas moradas nuevas </item>
+        <item> Cebolletas </item>
+        <item> Chayotes Unidad </item>
+        <item> Chochos </item>
+        <item> Cogollos de Tudela unidad </item>
+        <item> Col Hojarasca </item>
+        <item> Coles Corazón de buey </item>
+        <item> Coles de Bruselas </item>
+        <item> Coles lombardas </item>
+        <item> Coles Repollo </item>
+        <item> Coliflores </item>
+        <item> Colinabos </item>
+        <item> Espinacas </item>
+        <item> Grelos </item>
+        <item> Habas </item>
+        <item> Habichuelas Planas </item>
+        <item> Habichuelas Redondas </item>
+        <item> Judías en grano </item>
+        <item> Judías en vaina </item>
+        <item> Judías fabada </item>
+        <item> Lechuga Batavia </item>
+        <item> Lechuga Iceberg </item>
+        <item> Nabos </item>
+        <item> Pantanas Curadas </item>
+        <item> Pantanas Tiernas </item>
+        <item> Pepinos exportación </item>
+        <item> Pepinos país </item>
+        <item> Pimientas </item>
+        <item> Pimientas Secas </item>
+        <item> pimiento amarillo </item>
+        <item> Pimientos de Padrón </item>
+        <item> Pimientos Italianos </item>
+        <item> Pimientos rojos </item>
+        <item> Pimientos verdes </item>
+        <item> Piña de millo Unidad </item>
+        <item> Puerros </item>
+        <item> Rábanos Manojo </item>
+        <item> Tomates Ensalada </item>
+        <item> Tomates Salsa </item>
+        <item> Zanahoria </item>
+    </string-array>
+
+    <string-array name="productos_Papas">
+        <item> Papas Cara </item>
+        <item> Papas de Color Grandes </item>
+        <item> Papas de Color Medianas </item>
+        <item> PAPAS DRUIDAS </item>
+        <item> Papas Galáctica </item>
+        <item> Papas king Edward </item>
+        <item> Papas Negras Grandes </item>
+        <item> Papas Negras Medianas </item>
+        <item> Papas red cara </item>
+        <item> Papas rooster </item>
+        <item> Papas Galáctica </item>
+        <item> Papas Rosadas </item>
+        <item> Papas Slaney </item>
+        <item> Papas up to date </item>
+    </string-array>
+
+</resources>

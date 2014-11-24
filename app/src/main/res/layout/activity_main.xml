@@ -1,0 +1,58 @@
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+   
+    <Button
+       android:id="@+id/Boton_Ayuda_Principal"
+       android:layout_width="40dp"
+       android:layout_height="40dp"        
+       android:layout_gravity="right"
+       android:layout_margin="10dp"
+       android:text="@string/ayuda" />
+    
+    <TextView
+        android:id="@+id/Titulo_Principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/titulo_principal"
+        android:textSize="28sp" />
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" 
+        android:contentDescription="@string/definicion_logo"  />
+
+    <TextView
+        android:id="@+id/Bienvenida_Principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"     
+        android:layout_marginTop="10dp"
+        android:text="@string/subtitulo_principal"
+        android:textSize="24sp" />
+    
+   <TextView
+        android:id="@+id/Definicion_Corta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/definicion_corta"
+        android:textSize="12sp" />
+   
+       <Button
+       android:id="@+id/Boton_Acceso_App"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"        
+       android:layout_gravity="center"
+       android:layout_margin="5dp"
+       android:text="@string/acceso_app" />
+   
+</LinearLayout>
